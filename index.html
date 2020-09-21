@@ -1,0 +1,327 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Devansh Marwaha</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+    <style>
+        h1 {
+            text-align: center;
+            align-content: justify;
+            border-style: sock;
+            border-width: 2px;
+            width: 100%;
+            height: 1.3em;
+            letter-spacing: 5px;
+            color: rgb(255, 255, 255);
+            font-size: 35px;
+            margin: auto;
+            background-color: rgba(202, 174, 15, 0.61);
+            border-radius: 25px 25px 0 0;
+        }
+        
+        .bgg {
+            border-color: black;
+            background-color: rgba(0, 0, 0, 0.836);
+            border-radius: 29px;
+        }
+        
+        .row {
+            text-align: center;
+        }
+        
+        .hov {
+            transition: transform .2s;
+            width: 85%;
+            height: auto;
+            cursor: pointer;
+            border-radius: 15px;
+            margin-bottom: 1.5em;
+        }
+        
+        .hov:hover {
+            transform: scale(1.1);
+        }
+        
+        p {
+            color: azure;
+        }
+        
+        ul {
+            text-align: left;
+            font-size: 20px;
+            color: azure;
+        }
+        
+        .contactme i {
+            margin: 0.3em;
+            margin-top: -0.5em;
+            margin-bottom: 0.5em;
+        }
+        
+        @media screen and (min-width:720px) {
+            .contactme i {
+                margin: 1em;
+                margin-top: -0.5em;
+                margin-bottom: 0.5em;
+            }
+        }
+        
+        #disp {
+            animation: come 9s 1;
+            animation-timing-function: ease;
+            animation-delay: 0s;
+            display: none;
+        }
+        
+        @keyframes come {
+            0% {
+                opacity: 0;
+            }
+            100% {
+                opacity: 1;
+            }
+        }
+        
+        body::before {
+            content: '';
+            height: 100%;
+            width: 100%;
+            top: 0;
+            left: 0;
+            background-image: url("img_back(2).jpg");
+            background-size: cover;
+            position: fixed;
+            z-index: -1;
+        }
+        
+        .fa {
+            justify-content: center;
+            align-items: center;
+            padding: 16px;
+            border-radius: 50%;
+        }
+        
+        .fa-linkedin {
+            background-color: rgb(40, 103, 178);
+            color: white;
+        }
+        
+        .fa-linkedin:hover {
+            background-color: cornsilk;
+            color: blue
+        }
+        
+        .fa-instagram {
+            background-color: rgb(214, 104, 41);
+            color: white;
+        }
+        
+        .fa-instagram:hover {
+            background-color: cornsilk;
+            color: orangered;
+            outline: none;
+        }
+        
+        .fa-github {
+            background-color: rgb(50, 51, 53);
+            color: white;
+        }
+        
+        .fa-github:hover {
+            background-color: cornsilk;
+            color: rgb(11, 11, 14)
+        }
+        
+        .fa-at {
+            background-color: rgb(224, 32, 32);
+            color: white;
+        }
+        
+        .fa-at:hover {
+            background-color: cornsilk;
+            color: rgb(241, 22, 22)
+        }
+        
+        .fa-phone {
+            background-color: rgb(23, 146, 54);
+            color: white;
+        }
+        
+        .fa-phone:hover {
+            background-color: cornsilk;
+            color: rgb(32, 155, 42)
+        }
+        
+        .nav {
+            position: fixed;
+            background-color: rgba(202, 174, 15);
+            width: 100%;
+            left: 0;
+            top: 0;
+            z-index: 1;
+            border-bottom-width: 5px;
+            border-bottom-color: white;
+            border-bottom-style: solid;
+        }
+        
+        .nav .lol {
+            position: relative;
+            font-size: 30px;
+            margin-left: 90%;
+            margin-top: -2em;
+        }
+        
+        @media screen and (max-width:930px) {
+            .nav .lol {
+                margin-left: 70%;
+            }
+        }
+        
+        .nav .lol :hover {
+            background-color: rgba(0, 0, 0);
+        }
+        
+        .nav i {
+            line-height: 0.5em;
+            text-align: center;
+        }
+        
+        .nav .hi {
+            position: relative;
+            font-size: 25px;
+            padding: 5px;
+            margin-top: 0.6em;
+            font-family: cursive;
+            color: white;
+        }
+        
+        #contactme {
+            background-color: rgba(202, 174, 15);
+            width: 100%;
+            border-top-width: 5px;
+            border-top-color: white;
+            border-top-style: solid;
+        }
+    </style>
+
+</head>
+
+<body>
+    <div class="container-fluid">
+        <div class="nav">
+            <div class="hi">Devansh Marwaha</div>
+            <a href="https://wa.me/8968096689" class="lol"><i class="fa fa-handshake-o" style="color:white"><span style="color: white;font-size:15px; "><br>Colaborate</span></i></a>
+
+        </div>
+    </div><br><br><br><br>
+    <div class="container">
+        <br>
+        <div class="bgg">
+            <h1>Profile</h1>
+            <div class="row">
+                <div class="col-sm-2">
+                </div>
+                <div class="col-sm-4"><br>
+                    <img src="devansh.jpg" class="rounded-circle" alt="devansh" width="160" height="160"><br>
+                    <span style="color:azure;font-size:20px">Devansh Marwaha</span>
+                </div>
+                <div class="col-sm-4"><br>
+                    <h1 style="background-color:transparent;text-align:left;font-size:30px;margin-left:0.5em;letter-spacing:0px">My skills</h1>
+                    <ul>
+                        <li>Python</li>
+                        <li>HTML , CSS</li>
+                        <li>JavaScript</li>
+                        <li>Bootstrap</li>
+                        <li>C++</li>
+
+                    </ul>
+                </div>
+                <div class="col-sm-2">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-sm-2">
+                </div>
+                <div class="col-sm-8">
+                    <p style="font-size: 17px;margin:0.5em;margin-bottom: 2em;font-family:cursive">Hey! I am Devansh Marwaha . I have done my 10th class from Shiv Jyoti Public School, Jalandhar and I have scored 9.4 CGPA . Also completed 12th class from same school in Non-Medical stream and scored 86% . I am doing Computer Science
+                        and Engineering from Guru Nanak Dev University Regional Campus,Jalandhar,Punjab . My hobbies are playing cricket, making drawings, coding, listening songs.
+                    </p>
+                </div>
+                <div class="col-sm-2"></div>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <br>
+        <div class="bgg">
+            <h1>Projects</h1>
+            <div class="row">
+
+                <div class="col-sm-12"><br></div>
+                <div class="col-md-4 col-12">
+                    <a href="https://devanshmarwaha.github.io/Devansh-s_Music_Player/" target="_blank">
+                        <img class=hov src="img(7).png">
+                    </a>
+                </div>
+                <div class="col-md-4 col-12">
+                    <a href="https://devanshmarwaha.github.io/Covid-19API/" target="_blank">
+                        <img class="hov" src="img(2).png">
+                    </a>
+                </div>
+                <div class="col-md-4 col-12">
+                    <a href="https://devanshmarwaha.github.io/Arogya/" target="_blank">
+                        <img class=hov src="img(3).png">
+                    </a>
+                </div>
+                <div class="col-md-4 col-12">
+                    <a href="https://devanshmarwaha.github.io/Devansh-s_Calculator/" target="_blank">
+                        <img class="hov" src="img(4).png">
+                    </a>
+                </div>
+                <div class="col-md-4 col-12">
+                    <a href="https://devanshmarwaha.github.io/blog/#news" target="_blank">
+                        <img class="hov" src="img(5).png">
+                    </a>
+                </div>
+                <div class="col-md-4 col-12">
+                    <a href="https://devanshmarwaha.github.io/Devansh-Marwaha/" target="_blank">
+                        <img class="hov" src="img(6).png">
+                    </a>
+                </div>
+                <div class="col-md-4 col-12">
+                    <a href="https://devanshmarwaha.github.io/visitor_counter/" target="_blank">
+                        <img class="hov" src="img(1).png">
+                    </a>
+                </div>
+
+                <div class="col-sm-12"><br></div>
+            </div>
+        </div>
+    </div><br><br><br>
+
+    <div class="container-fluid" id="contactme">
+        <br>
+
+        <div class="row">
+            <div class="col-sm-2">
+            </div>
+            <div class="col-sm-8 contactme">
+                <p style="font-family: cursive;font-size:20px">Contact Me:</p>
+                <a href="mailto:devansh.marwaha400@gmail.com" target="_blank"><i class="fa fa-at" style="font-size:15px; "></i></a>
+                <a href="tel:8968096689" target="_blank"><i class="fa fa-phone" style="font-size:15px; "></i></a>
+                <a class="lol" href="https://github.com/devanshmarwaha" target="_blank"><i class="fa fa-github" style="font-size:15px; "></i></a>
+                <a href="https://www.linkedin.com/in/devansh-marwaha-a548b918b" target="_blank"><i class="fa fa-linkedin" style="font-size:15px; "></i></a>
+                <a href="http://instagram.com/devansh._.marwaha" target="_blank"><i class="fa fa-instagram" style="font-size:15px; "></i></a>
+                <br><br></div>
+            <div class="col-sm-2">
+            </div>
+        </div>
+    </div>
+    </div>
+</body>
+
+</html>
